@@ -51,15 +51,21 @@ bool creditAccount::withdraw(double amount) {
     }
 
     if ((balance - amount) >= -creditLimit) {
+
         cout << "You have withdrawn " << amount << " from your credit account." << endl;
 
-        balance -= amount; // Ensure this correctly reflects the credit account balance
+        balance -= amount;
 
         cout << "The new credit balance: " << balance << endl << endl;
 
         return true;
-    } else {
+
+    }
+
+    else {
+
         cout << "The withdraw exceeds the credit account limit" << endl << endl;
+
         return false;
     }
 }

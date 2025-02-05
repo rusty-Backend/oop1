@@ -121,15 +121,19 @@ bool Customer::transfer(double amount, Customer &receiver) {
          << endl << endl;
 
     if (Account.getBalance() >= amount) {
+
         Account.withdraw(amount);
     }
 
     else {
         double remaining = amount - Account.getBalance();
+
         Account.withdraw(Account.getBalance());
+
         creditAccount.withdraw(remaining);
     }
 
     receiver.deposit(amount);
+
     return true;
 }
