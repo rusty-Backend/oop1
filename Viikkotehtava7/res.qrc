@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>pg.jpg</file>
+        <file>bootlegPrincess.png</file>
+        <file>STK-20240828-WA0012.png</file>
+        <file>stk-20241023-wa0004.png</file>
+        <file>warning.png</file>
+        <file>backgroundMusic.mp3</file>
+        <file>clicksound.mp3</file>
+        <file>errorSound.mp3</file>
+        <file>resultSound.mp3</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>backgroundMusic.mp3</file>
+        <file>clicksound.mp3</file>
+        <file>errorSound.mp3</file>
+        <file>resultSound.mp3</file>
+    </qresource>
+</RCC>
